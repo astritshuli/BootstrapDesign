@@ -1,0 +1,474 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+@media only screen and (max-width: 959px) and (min-width: 768px){
+body {
+    font-size: 13px;
+    line-height: 21px;
+}
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 12px;
+    list-style-type: none;
+}
+.o {
+
+    color:orange;
+}
+.colist {
+
+    padding: 2px 5px 10px 5px;
+
+}
+.contentback {
+
+    background-image: url(http://mediapro.al/blogdemo/wp-content/uploads/2018/11/Asset-1CC.jpg);
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 120px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+
+}
+.footer {
+
+    background-image: url(http://mediapro.al/blogdemo/wp-content/uploads/2018/11/Asset-10-1-1.jpg);
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-size: cover;
+    color: white;
+}
+
+.clearfix {
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.devider {
+    margin-top: 22px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #ffa5008c;
+}
+
+.devider1 {
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 320px;
+
+}
+
+ .copyright {
+   padding-top: 20px;
+      
+ 
+
+}
+
+
+.email {
+
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: 2px solid orange;
+    font-size: 26px;
+    background-color: #8c8c8c;
+    margin-right: 2px;
+}
+.subbutton {
+
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: transparent;
+    border: 1px solid orange;
+}
+
+.subbutton:hover {
+    background: orange;
+    color:white;
+    
+    }
+
+.fontawsome {
+
+    font-size: 20px;
+    padding-bottom: 50px;
+
+}
+.fonts {
+
+    background-color: #00273F;
+    padding: 2 2 2 2;
+    padding-right: 9px;
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    border: solid 1px #00273F;
+    border-radius: 20px;
+}
+
+.fontsoluzioni {
+    
+    color: orange;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 23px 24px 23px 25px;
+}
+
+p {
+    padding-top: 1.7em;
+    padding-bottom: 3.7em;
+    width: 100%;
+    background-color: #FCFCFC;
+    margin: 0 auto;
+    display: block;
+    padding-right: 10px;
+    display: block;
+    padding-left: 10px;
+}
+ p:hover {
+  color: white;
+}
+
+
+p.box:hover {
+  background-color: #F68F2F;
+   -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.new {
+
+    text-align: center;
+}
+
+.newfont:hover {
+    background-color:orange;
+    color:white;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  
+
+
+}
+
+.newfont {
+
+    border: 1px solid orange;
+    padding: 23px 24px 23px 25px;
+    border-radius: 60px;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:orange;
+
+
+}
+
+
+.halfborder:hover::after
+ {
+    color: white;
+
+}
+
+
+
+
+.halfborder:hover:after {
+    content: "";
+    display:block;
+    width:30%;
+    
+    height:1px;
+    padding:0;margin:0;
+    background-color:black;
+    position: absolute;
+    right:0;
+   bottom:-1px;
+   
+ 
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+      
+   
+}
+
+.carouselslider {
+
+    margin-top: -90px;
+}
+
+.actionheader {
+    background-color: #00273F;
+    color: whitesmoke;
+    height: 96px;
+    z-index: 1;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.navbar-default {
+    position: absolute;
+    z-index: 1;
+    margin-top: -23px;
+    padding: 20px;
+}
+
+
+@media (max-width: 991px) {
+    .mobile-only {
+        display:block !important;
+    }
+
+    .desktop-only {
+        display:none !important;
+    }
+
+    .carouselslider {
+        margin-top: -30px;
+    }
+
+    .soluzionirow {
+        background-color: #ececec;
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 11px;
+    }
+
+    .clearfix {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .copyright {
+        padding-top: 20px;
+        padding-right: 16px;
+        padding-left: 25px;
+    }
+    .paddingmobile {
+
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+     }
+
+    .slider {
+        margin-top: -55px;
+       }
+       
+     .col-sm-6 {
+         top: 20px; 
+     } 
+
+
+     .MultiCarousel .rightLst {
+        right: 140;
+    }
+.MultiCarousel .leftLst { 
+    left:140; 
+}
+}
+
+
+
+@media (min-width: 1200px) {
+    .desktop-only {
+        display:block !important;
+    }
+    .mobile-only {
+        display:none !important;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+        top: 20px;
+       
+    }
+    .buttonslider {
+
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid orange;
+        background-color: transparent;
+        color: #00273F;
+
+        
+    }
+    .slider {
+        margin-top: -100px;
+       }
+
+       .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+     
+        float: right;
+        padding-right: 50px;
+    }
+    .MultiCarousel .rightLst {
+        right: 500;
+    }
+.MultiCarousel .leftLst { 
+    left:500; 
+}
+
+}
+
+
+@media (min-width:992px) {
+    .desktop-only {
+        display:block !important;
+    }  
+    .mobile-only {
+        display:none !important;
+    }
+    .col-sm-6 {
+        width: 50%;
+        top: 20px;
+       
+    }
+    .buttonslider {
+
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid orange;
+        background-color: transparent;
+        color: #00273F;
+
+        
+    }
+   
+    .slider {
+        margin-top: -100px;
+       }
+
+       .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        float: right;
+        padding-right: 50px;
+    }
+
+    .MultiCarousel .rightLst {
+        right: 500;
+    }
+.MultiCarousel .leftLst { 
+    left:500; 
+}
+       
+}
+
+
+
+.MultiCarousel {
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    height: 400;
+    position: relative;
+    }
+.MultiCarousel .MultiCarousel-inner {
+         transition: 1s ease all; 
+         float: left;
+         }
+.MultiCarousel .MultiCarousel-inner .item {
+             float: left;
+            }
+.MultiCarousel .MultiCarousel-inner .item > div { 
+            text-align: center; 
+            padding:10px; 
+            margin:10px;
+            
+        }
+        
+
+         .MultiCarousel .leftLst, .MultiCarousel .rightLst {
+            position: absolute;
+            border-radius: 50%;
+            top: calc(70% - 10px);
+        }
+
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+             pointer-events: none;
+              background:#ccc;
+             }
+
+             .titles {
+
+                padding-top: 0.7em;
+                padding-bottom: 0.7em;
+             }
+
+             .soluzionirow {
+
+                background-color: #ececec;
+                padding-top: 20px;
+                
+             }
+             .clients {
+
+
+                padding-bottom: 50px;
+                padding-top: 50px;
+                 vertical-align: middle;
+             }
+             .clientsrow {
+
+                background-color: #00273F;
+                text-align: center;
+             }
+             
+             .overlay {
+                position: relative;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: #ffa5009c;
+            }
+             
+              .pad15:hover .overlay {
+                opacity: 1;
+              }
+              .contentbox {
+
+                border:1px solid orange;
+                background-color: white;
+              }
